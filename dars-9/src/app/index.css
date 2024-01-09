@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .max-container {
+        max-width: 1000px; 
+        @apply mx-auto px-10 w-full text-white
+    }
+
+    .link-hover {
+        @apply hover:opacity-70  hover:underline
+    }
+}
+
+img {
+    width: 1600px;
+    height: 500px;
+}
