@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .text-h3 {
+        @apply font-mono text-xl
+    }
+
+    .text-div {
+        @apply text-center
+    }
+
+}
+
+.card {
+
+}
